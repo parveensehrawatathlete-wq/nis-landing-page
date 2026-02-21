@@ -1,0 +1,1796 @@
+You're absolutely right! Let me create a COMPLETE, HIGH-QUALITY HTML version with EVERYTHING from your React landing page. I'll include all sections with proper styling:
+Action: file_editor create /app/nis-landing-complete.html --file-text "<!DOCTYPE html>
+<html lang=\"en\">
+<head>
+    <meta charset=\"UTF-8\">
+    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">
+    <title>NIS Coach Diploma Entrance 2026-27 | Sports Tank India</title>
+    <meta name=\"description\" content=\"NIS Coach Diploma Entrance Preparation 2026-27. Expert coaching by NIS Qualified Coaches. Enroll now for ₹1,499.\">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+            line-height: 1.6;
+            color: #1e293b;
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Hero Section */
+        .hero-section {
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #334155 100%);
+            position: relative;
+            min-height: 85vh;
+            display: flex;
+            align-items: center;
+            padding: 80px 20px;
+            overflow: hidden;
+        }
+
+        .hero-gradient-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: 
+                radial-gradient(ellipse at top right, rgba(251, 191, 36, 0.15) 0%, transparent 50%),
+                radial-gradient(ellipse at bottom left, rgba(249, 115, 22, 0.12) 0%, transparent 50%);
+            pointer-events: none;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 10;
+            text-align: center;
+            max-width: 1100px;
+            margin: 0 auto;
+            width: 100%;
+        }
+
+        .brand-text {
+            color: #fbbf24;
+            font-size: 1.25rem;
+            font-weight: 600;
+            letter-spacing: 0.1em;
+            margin-bottom: 10px;
+        }
+
+        .brand-line {
+            width: 100px;
+            height: 4px;
+            background: linear-gradient(to right, transparent, #f59e0b, transparent);
+            margin: 10px auto 50px;
+        }
+
+        .hero-main-title {
+            font-size: 5rem;
+            font-weight: 900;
+            line-height: 1;
+            margin-bottom: 25px;
+            text-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+            letter-spacing: -0.02em;
+        }
+
+        .hero-title-white {
+            color: white;
+            display: block;
+        }
+
+        .hero-title-gradient {
+            background: linear-gradient(135deg, #fbbf24 0%, #fb923c 50%, #f97316 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            display: block;
+            filter: drop-shadow(0 0 30px rgba(251, 191, 36, 0.5));
+        }
+
+        .hero-subtitle {
+            color: white;
+            font-size: 3rem;
+            font-weight: bold;
+            margin-bottom: 40px;
+            letter-spacing: 0.05em;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 14px 28px;
+            background: linear-gradient(to right, #f59e0b, #ea580c);
+            color: white;
+            border-radius: 50px;
+            font-weight: bold;
+            font-size: 1.1rem;
+            margin-bottom: 50px;
+            box-shadow: 0 4px 15px rgba(249, 115, 22, 0.4);
+            animation: pulse 2s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-bottom: 35px;
+        }
+
+        .btn {
+            padding: 18px 36px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #f97316 0%, #ea580c 100%);
+            color: white;
+            box-shadow: 0 4px 15px rgba(249, 115, 22, 0.4);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(249, 115, 22, 0.6);
+        }
+
+        .btn-whatsapp {
+            background: #25D366;
+            color: white;
+            box-shadow: 0 4px 15px rgba(37, 211, 102, 0.4);
+        }
+
+        .btn-whatsapp:hover {
+            background: #20BA5A;
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(37, 211, 102, 0.6);
+        }
+
+        .btn-outline {
+            background: transparent;
+            border: 2px solid rgba(255, 255, 255, 0.5);
+            color: white;
+        }
+
+        .btn-outline:hover {
+            background: rgba(255, 255, 255, 0.1);
+            border-color: white;
+            transform: translateY(-2px);
+        }
+
+        .trust-indicators {
+            display: flex;
+            gap: 30px;
+            justify-content: center;
+            flex-wrap: wrap;
+            color: #e2e8f0;
+        }
+
+        .trust-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            background: rgba(255, 255, 255, 0.05);
+            padding: 12px 24px;
+            border-radius: 10px;
+            backdrop-filter: blur(10px);
+        }
+
+        /* Features Section */
+        .features-section {
+            padding: 100px 20px;
+            background: #f8fafc;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 70px;
+        }
+
+        .section-badge {
+            display: inline-block;
+            padding: 10px 20px;
+            background: linear-gradient(to right, #f59e0b, #ea580c);
+            color: white;
+            border-radius: 25px;
+            font-weight: 600;
+            font-size: 0.95rem;
+            margin-bottom: 25px;
+            box-shadow: 0 2px 10px rgba(249, 115, 22, 0.3);
+        }
+
+        .section-title {
+            font-size: 3.5rem;
+            font-weight: 900;
+            margin-bottom: 20px;
+            color: #0f172a;
+            line-height: 1.2;
+        }
+
+        .text-gradient {
+            background: linear-gradient(135deg, #fbbf24 0%, #f97316 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .section-subtitle {
+            font-size: 1.3rem;
+            color: #64748b;
+            max-width: 850px;
+            margin: 0 auto;
+            line-height: 1.7;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 50px;
+        }
+
+        .feature-card {
+            background: white;
+            border-radius: 16px;
+            padding: 35px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.07);
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            border-top: 4px solid transparent;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .feature-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+        }
+
+        .feature-card.blue { border-top-color: #3b82f6; }
+        .feature-card.purple { border-top-color: #a855f7; }
+        .feature-card.green { border-top-color: #10b981; }
+        .feature-card.orange { border-top-color: #f97316; }
+        .feature-card.indigo { border-top-color: #6366f1; }
+        .feature-card.teal { border-top-color: #14b8a6; }
+        .feature-card.rose { border-top-color: #f43f5e; }
+        .feature-card.amber { border-top-color: #f59e0b; }
+
+        .feature-icon {
+            width: 60px;
+            height: 60px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 25px;
+            font-size: 1.8rem;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .feature-card.blue .feature-icon { background: linear-gradient(135deg, #3b82f6, #06b6d4); }
+        .feature-card.purple .feature-icon { background: linear-gradient(135deg, #a855f7, #ec4899); }
+        .feature-card.green .feature-icon { background: linear-gradient(135deg, #10b981, #059669); }
+        .feature-card.orange .feature-icon { background: linear-gradient(135deg, #f97316, #ef4444); }
+        .feature-card.indigo .feature-icon { background: linear-gradient(135deg, #6366f1, #a855f7); }
+        .feature-card.teal .feature-icon { background: linear-gradient(135deg, #14b8a6, #06b6d4); }
+        .feature-card.rose .feature-icon { background: linear-gradient(135deg, #f43f5e, #ec4899); }
+        .feature-card.amber .feature-icon { background: linear-gradient(135deg, #f59e0b, #f97316); }
+
+        .feature-title {
+            font-size: 1.3rem;
+            font-weight: 700;
+            margin-bottom: 12px;
+            color: #0f172a;
+            line-height: 1.4;
+        }
+
+        .feature-description {
+            color: #64748b;
+            line-height: 1.7;
+            font-size: 1rem;
+        }
+
+        /* Admission Criteria */
+        .admission-section {
+            padding: 100px 20px;
+            background: white;
+        }
+
+        .criteria-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 25px;
+            margin-top: 50px;
+        }
+
+        .criteria-card {
+            padding: 28px;
+            border-radius: 14px;
+            border: 2px solid;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: all 0.3s ease;
+            gap: 15px;
+        }
+
+        .criteria-card:hover {
+            transform: translateX(8px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+        }
+
+        .criteria-title {
+            font-weight: 700;
+            font-size: 1.1rem;
+            line-height: 1.4;
+        }
+
+        .marks-badge {
+            padding: 10px 18px;
+            border-radius: 25px;
+            color: white;
+            font-weight: bold;
+            font-size: 0.95rem;
+            white-space: nowrap;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+        }
+
+        /* Curriculum Section */
+        .curriculum-section {
+            padding: 100px 20px;
+            background: #f8fafc;
+        }
+
+        .curriculum-list {
+            max-width: 1100px;
+            margin: 50px auto 0;
+        }
+
+        .curriculum-item {
+            background: white;
+            padding: 30px;
+            border-radius: 16px;
+            margin-bottom: 25px;
+            border: 2px solid #e2e8f0;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: start;
+            gap: 25px;
+        }
+
+        .curriculum-item:hover {
+            border-color: #f59e0b;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+            transform: translateX(5px);
+        }
+
+        .curriculum-number {
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #f59e0b, #ea580c);
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 1.2rem;
+            flex-shrink: 0;
+            box-shadow: 0 4px 12px rgba(249, 115, 22, 0.3);
+        }
+
+        .curriculum-content {
+            flex: 1;
+        }
+
+        .curriculum-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            margin-bottom: 12px;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .curriculum-title {
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: #0f172a;
+        }
+
+        .curriculum-marks {
+            padding: 8px 16px;
+            background: #f59e0b;
+            color: white;
+            border-radius: 20px;
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+
+        .curriculum-description {
+            color: #64748b;
+            line-height: 1.7;
+            font-size: 1.05rem;
+        }
+
+        /* Physical Fitness Section */
+        .fitness-section {
+            padding: 100px 20px;
+            background: white;
+        }
+
+        .fitness-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            margin-top: 50px;
+        }
+
+        .fitness-item {
+            padding: 25px;
+            background: linear-gradient(135deg, #f8fafc, #f1f5f9);
+            border: 2px solid #cbd5e1;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            gap: 18px;
+            transition: all 0.3s ease;
+        }
+
+        .fitness-item:hover {
+            border-color: #f97316;
+            box-shadow: 0 6px 20px rgba(249, 115, 22, 0.15);
+            transform: translateY(-3px);
+        }
+
+        .fitness-number {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: #f97316;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            flex-shrink: 0;
+        }
+
+        .fitness-name {
+            font-weight: 600;
+            font-size: 1.05rem;
+            color: #0f172a;
+        }
+
+        /* Eligibility Section */
+        .eligibility-section {
+            padding: 100px 20px;
+            background: #f8fafc;
+        }
+
+        .eligibility-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+            gap: 40px;
+            margin-top: 50px;
+        }
+
+        .eligibility-card {
+            background: white;
+            border: 2px solid;
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+        }
+
+        .eligibility-header {
+            padding: 30px;
+            background: linear-gradient(135deg, #dbeafe, #bfdbfe);
+        }
+
+        .eligibility-header.education {
+            background: linear-gradient(135deg, #dbeafe, #bfdbfe);
+            border-color: #3b82f6;
+        }
+
+        .eligibility-header.sports {
+            background: linear-gradient(135deg, #d1fae5, #a7f3d0);
+            border-color: #10b981;
+        }
+
+        .eligibility-card.education { border-color: #3b82f6; }
+        .eligibility-card.sports { border-color: #10b981; }
+
+        .eligibility-title {
+            font-size: 1.8rem;
+            font-weight: 800;
+            margin: 0;
+        }
+
+        .eligibility-title.education { color: #1e40af; }
+        .eligibility-title.sports { color: #065f46; }
+
+        .eligibility-body {
+            padding: 30px;
+        }
+
+        .eligibility-item {
+            padding: 20px;
+            background: white;
+            border-left: 4px solid;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        }
+
+        .eligibility-item.education { border-left-color: #3b82f6; }
+        .eligibility-item.sports { border-left-color: #10b981; }
+
+        .eligibility-subtitle {
+            font-weight: 700;
+            color: #0f172a;
+            margin-bottom: 6px;
+            font-size: 1.1rem;
+        }
+
+        .eligibility-text {
+            color: #64748b;
+            line-height: 1.6;
+        }
+
+        /* Sports Achievement Section */
+        .achievement-section {
+            padding: 100px 20px;
+            background: white;
+        }
+
+        .achievement-grid {
+            max-width: 1300px;
+            margin: 50px auto 0;
+        }
+
+        .achievement-card {
+            background: white;
+            border: 2px solid;
+            border-radius: 16px;
+            overflow: hidden;
+            margin-bottom: 35px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+            transition: all 0.3s ease;
+        }
+
+        .achievement-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+        }
+
+        .achievement-header {
+            padding: 30px;
+            background: linear-gradient(to right, #fbbf24, #f59e0b);
+            color: white;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .achievement-header.gold {
+            background: linear-gradient(to right, #fbbf24, #f59e0b);
+            border-color: #fbbf24;
+        }
+
+        .achievement-header.silver {
+            background: linear-gradient(to right, #f97316, #ea580c);
+            border-color: #f97316;
+        }
+
+        .achievement-header.bronze {
+            background: linear-gradient(to right, #3b82f6, #2563eb);
+            border-color: #3b82f6;
+        }
+
+        .achievement-header.participation {
+            background: linear-gradient(to right, #10b981, #059669);
+            border-color: #10b981;
+        }
+
+        .achievement-icon {
+            font-size: 2.5rem;
+        }
+
+        .achievement-title-text {
+            font-size: 2rem;
+            font-weight: 900;
+            margin: 0;
+        }
+
+        .achievement-body {
+            padding: 35px;
+        }
+
+        .achievement-list {
+            list-style: none;
+        }
+
+        .achievement-list li {
+            display: flex;
+            align-items: start;
+            gap: 15px;
+            margin-bottom: 18px;
+            color: #475569;
+            line-height: 1.7;
+            font-size: 1.05rem;
+        }
+
+        .achievement-check {
+            color: #10b981;
+            font-size: 1.4rem;
+            flex-shrink: 0;
+            margin-top: 2px;
+        }
+
+        /* Educators Section */
+        .educators-section {
+            padding: 100px 20px;
+            background: #0f172a;
+            color: white;
+        }
+
+        .educators-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 50px;
+            margin-top: 50px;
+            max-width: 1100px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .educator-card {
+            background: #1e293b;
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+            transition: all 0.4s ease;
+        }
+
+        .educator-card:hover {
+            transform: translateY(-12px);
+            box-shadow: 0 25px 60px rgba(0, 0, 0, 0.5);
+        }
+
+        .educator-image-container {
+            position: relative;
+            height: 350px;
+            overflow: hidden;
+        }
+
+        .educator-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.4s ease;
+        }
+
+        .educator-card:hover .educator-image {
+            transform: scale(1.05);
+        }
+
+        .educator-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding: 25px;
+            background: linear-gradient(to top, rgba(15, 23, 42, 0.98) 0%, transparent 100%);
+            text-align: center;
+        }
+
+        .educator-info {
+            padding: 35px;
+            text-align: center;
+        }
+
+        .educator-name {
+            font-size: 2rem;
+            font-weight: 800;
+            margin-bottom: 18px;
+            color: white;
+        }
+
+        .educator-badges {
+            display: flex;
+            gap: 12px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+        }
+
+        .educator-badge {
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            border: 1.5px solid;
+            font-weight: 600;
+        }
+
+        .educator-badge.amber {
+            color: #fbbf24;
+            border-color: #fbbf24;
+            background: rgba(251, 191, 36, 0.1);
+        }
+
+        .educator-badge.green {
+            color: #10b981;
+            border-color: #10b981;
+            background: rgba(16, 185, 129, 0.1);
+        }
+
+        .educator-description {
+            color: #cbd5e1;
+            line-height: 1.8;
+            font-size: 1.05rem;
+        }
+
+        /* Pricing Section */
+        .pricing-section {
+            padding: 100px 20px;
+            background: linear-gradient(135deg, #f8fafc 0%, white 100%);
+        }
+
+        .pricing-card {
+            max-width: 750px;
+            margin: 50px auto 0;
+            background: white;
+            border: 4px solid #f59e0b;
+            border-radius: 20px;
+            padding: 50px;
+            box-shadow: 0 25px 70px rgba(0, 0, 0, 0.15);
+            transition: all 0.3s ease;
+        }
+
+        .pricing-card:hover {
+            transform: scale(1.02);
+            box-shadow: 0 30px 80px rgba(251, 191, 36, 0.25);
+        }
+
+        .pricing-header {
+            text-align: center;
+            margin-bottom: 35px;
+        }
+
+        .limited-badge {
+            background: #ef4444;
+            color: white;
+            padding: 10px 24px;
+            border-radius: 25px;
+            font-weight: 700;
+            display: inline-block;
+            margin-bottom: 25px;
+            box-shadow: 0 4px 15px rgba(239, 68, 68, 0.4);
+        }
+
+        .price-tag {
+            font-size: 4rem;
+            font-weight: 900;
+            color: #0f172a;
+            margin: 20px 0;
+            line-height: 1;
+        }
+
+        .price-description {
+            font-size: 1.3rem;
+            color: #64748b;
+            margin-bottom: 35px;
+        }
+
+        .price-features {
+            text-align: left;
+            margin: 35px 0;
+        }
+
+        .price-feature-item {
+            display: flex;
+            align-items: start;
+            gap: 18px;
+            margin-bottom: 18px;
+            padding: 12px;
+            border-radius: 8px;
+            transition: background 0.2s ease;
+        }
+
+        .price-feature-item:hover {
+            background: #f8fafc;
+        }
+
+        .checkmark {
+            color: #10b981;
+            font-size: 1.5rem;
+            flex-shrink: 0;
+            font-weight: bold;
+        }
+
+        .feature-text {
+            color: #475569;
+            font-size: 1.05rem;
+            line-height: 1.6;
+        }
+
+        .pricing-cta {
+            margin-top: 40px;
+        }
+
+        .pricing-note {
+            text-align: center;
+            color: #94a3b8;
+            margin-top: 25px;
+            font-size: 0.95rem;
+        }
+
+        /* FAQ Section */
+        .faq-section {
+            padding: 100px 20px;
+            background: white;
+        }
+
+        .faq-container {
+            max-width: 900px;
+            margin: 50px auto 0;
+        }
+
+        .faq-item {
+            background: #f8fafc;
+            border: 2px solid #e2e8f0;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .faq-item:hover {
+            border-color: #f59e0b;
+        }
+
+        .faq-question {
+            padding: 25px 30px;
+            cursor: pointer;
+            font-weight: 700;
+            font-size: 1.15rem;
+            color: #0f172a;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .faq-icon {
+            font-size: 1.5rem;
+            color: #f59e0b;
+            flex-shrink: 0;
+        }
+
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+
+        .faq-answer-content {
+            padding: 0 30px 25px;
+            color: #64748b;
+            line-height: 1.8;
+            font-size: 1.05rem;
+        }
+
+        .faq-item.active .faq-answer {
+            max-height: 500px;
+        }
+
+        .faq-item.active .faq-icon {
+            transform: rotate(45deg);
+        }
+
+        /* Course Poster Section */
+        .poster-section {
+            padding: 100px 20px;
+            background: #f1f5f9;
+        }
+
+        .poster-container {
+            max-width: 1000px;
+            margin: 50px auto 0;
+        }
+
+        .poster-wrapper {
+            background: white;
+            padding: 15px;
+            border-radius: 20px;
+            box-shadow: 0 25px 70px rgba(0, 0, 0, 0.15);
+            border: 4px solid #f59e0b;
+        }
+
+        .poster-image {
+            width: 100%;
+            height: auto;
+            border-radius: 12px;
+            display: block;
+        }
+
+        .poster-cta {
+            display: flex;
+            gap: 25px;
+            justify-content: center;
+            margin-top: 50px;
+            flex-wrap: wrap;
+        }
+
+        /* Footer */
+        .footer {
+            background: #0f172a;
+            color: white;
+            padding: 70px 20px 35px;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 50px;
+            margin-bottom: 50px;
+        }
+
+        .footer-brand {
+            font-size: 2rem;
+            font-weight: 900;
+            color: #fbbf24;
+            margin-bottom: 20px;
+        }
+
+        .footer-description {
+            color: #94a3b8;
+            line-height: 1.8;
+            font-size: 1.05rem;
+        }
+
+        .footer-heading {
+            font-size: 1.3rem;
+            margin-bottom: 25px;
+            font-weight: 700;
+        }
+
+        .footer-link {
+            color: #94a3b8;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 15px;
+            transition: all 0.3s ease;
+            font-size: 1.05rem;
+        }
+
+        .footer-link:hover {
+            color: #fbbf24;
+            transform: translateX(5px);
+        }
+
+        .footer-bottom {
+            text-align: center;
+            padding-top: 40px;
+            border-top: 1px solid #334155;
+            color: #94a3b8;
+            font-size: 1rem;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 1024px) {
+            .hero-main-title {
+                font-size: 4rem;
+            }
+
+            .hero-subtitle {
+                font-size: 2.5rem;
+            }
+
+            .section-title {
+                font-size: 3rem;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .hero-main-title {
+                font-size: 2.8rem;
+            }
+
+            .hero-subtitle {
+                font-size: 2rem;
+            }
+
+            .section-title {
+                font-size: 2.2rem;
+            }
+
+            .cta-buttons {
+                flex-direction: column;
+            }
+
+            .btn {
+                width: 100%;
+            }
+
+            .features-grid,
+            .criteria-grid,
+            .fitness-grid,
+            .eligibility-grid,
+            .educators-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .pricing-card {
+                padding: 35px 25px;
+            }
+
+            .price-tag {
+                font-size: 3rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero-main-title {
+                font-size: 2.2rem;
+            }
+
+            .hero-subtitle {
+                font-size: 1.5rem;
+            }
+
+            .section-title {
+                font-size: 1.8rem;
+            }
+
+            .section-subtitle {
+                font-size: 1.1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class=\"hero-section\">
+        <div class=\"hero-gradient-overlay\"></div>
+        <div class=\"hero-content\">
+            <p class=\"brand-text\">SPORTS TANK INDIA</p>
+            <div class=\"brand-line\"></div>
+            
+            <h1 class=\"hero-main-title\">
+                <span class=\"hero-title-white\">NIS COACH</span>
+                <span class=\"hero-title-gradient\">DIPLOMA</span>
+            </h1>
+            <h2 class=\"hero-subtitle\">ENTRANCE 2026-27</h2>
+
+            <div class=\"badge\">🔥 Batch Starting 1st March 2026</div>
+
+            <div class=\"cta-buttons\">
+                <a href=\"https://pages.razorpay.com/nisdiploma2026\" target=\"_blank\" class=\"btn btn-primary\">
+                    Enroll Now - Direct Admission
+                </a>
+                <a href=\"https://wa.me/917206131232?text=Hi\" target=\"_blank\" class=\"btn btn-whatsapp\">
+                    Contact via WhatsApp
+                </a>
+            </div>
+
+            <div style=\"margin: 35px 0;\">
+                <a href=\"https://whatsapp.com/channel/0029VbBuOMEDJ6H8A0wYLy2T\" target=\"_blank\" class=\"btn btn-outline\">
+                    💬 Join WhatsApp Channel for Updates
+                </a>
+            </div>
+
+            <div class=\"trust-indicators\">
+                <div class=\"trust-item\">
+                    <span>✓</span>
+                    <span>Limited Seats Available</span>
+                </div>
+                <div class=\"trust-item\">
+                    <span>✓</span>
+                    <span>Access Till Entrance Test</span>
+                </div>
+                <div class=\"trust-item\">
+                    <span>✓</span>
+                    <span>NIS Qualified Educators</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class=\"features-section\">
+        <div class=\"container\">
+            <div class=\"section-header\">
+                <div class=\"section-badge\">Course Features</div>
+                <h2 class=\"section-title\">What You'll Get Inside <span class=\"text-gradient\">This Course</span></h2>
+                <p class=\"section-subtitle\">Comprehensive preparation designed as per NS NIS Selection Pattern</p>
+            </div>
+
+            <div class=\"features-grid\">
+                <div class=\"feature-card blue\">
+                    <div class=\"feature-icon\">📹</div>
+                    <h3 class=\"feature-title\">Recorded Theory Video Lectures + Live Classes</h3>
+                    <p class=\"feature-description\">Comprehensive video lectures covering all topics at your own pace with live doubt-clearing sessions</p>
+                </div>
+
+                <div class=\"feature-card purple\">
+                    <div class=\"feature-icon\">📝</div>
+                    <h3 class=\"feature-title\">Expert Notes (Exam-Oriented)</h3>
+                    <p class=\"feature-description\">Topic-wise curated notes designed specifically for exam success</p>
+                </div>
+
+                <div class=\"feature-card green\">
+                    <div class=\"feature-icon\">📊</div>
+                    <h3 class=\"feature-title\">Specialized MCQs & Test Series</h3>
+                    <p class=\"feature-description\">Practice with targeted MCQs and full-length test series for all subjects</p>
+                </div>
+
+                <div class=\"feature-card orange\">
+                    <div class=\"feature-icon\">📖</div>
+                    <h3 class=\"feature-title\">Previous Year Analysis</h3>
+                    <p class=\"feature-description\">Detailed analysis of previous year question papers and patterns</p>
+                </div>
+
+                <div class=\"feature-card indigo\">
+                    <div class=\"feature-icon\">👥</div>
+                    <h3 class=\"feature-title\">Weekly Live Doubt-Clearing Sessions</h3>
+                    <p class=\"feature-description\">Get your doubts resolved by expert NIS qualified coaches in live sessions</p>
+                </div>
+
+                <div class=\"feature-card teal\">
+                    <div class=\"feature-icon\">🎯</div>
+                    <h3 class=\"feature-title\">Full-Length Mock Tests</h3>
+                    <p class=\"feature-description\">Simulate real exam experience with comprehensive mock tests</p>
+                </div>
+
+                <div class=\"feature-card rose\">
+                    <div class=\"feature-icon\">🏆</div>
+                    <h3 class=\"feature-title\">Interview Preparation Classes</h3>
+                    <p class=\"feature-description\">Specialized training to ace your NIS selection interview with confidence</p>
+                </div>
+
+                <div class=\"feature-card amber\">
+                    <div class=\"feature-icon\">💬</div>
+                    <h3 class=\"feature-title\">Dedicated Support & Guidance</h3>
+                    <p class=\"feature-description\">24/7 support to guide you throughout your preparation journey</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Admission Criteria Section -->
+    <section class=\"admission-section\">
+        <div class=\"container\">
+            <div class=\"section-header\">
+                <h2 class=\"section-title\">Allotment of Marks for Admission Criteria</h2>
+                <p class=\"section-subtitle\">Total Marks: 100</p>
+            </div>
+
+            <div class=\"criteria-grid\">
+                <div class=\"criteria-card\" style=\"background: linear-gradient(135deg, #dbeafe, #bfdbfe); border-color: #3b82f6;\">
+                    <h3 class=\"criteria-title\" style=\"color: #1e40af;\">Educational Qualifications</h3>
+                    <span class=\"marks-badge\" style=\"background: #3b82f6;\">10 marks</span>
+                </div>
+
+                <div class=\"criteria-card\" style=\"background: linear-gradient(135deg, #d1fae5, #a7f3d0); border-color: #10b981;\">
+                    <h3 class=\"criteria-title\" style=\"color: #065f46;\">Sports Achievements</h3>
+                    <span class=\"marks-badge\" style=\"background: #10b981;\">20 marks</span>
+                </div>
+
+                <div class=\"criteria-card\" style=\"background: linear-gradient(135deg, #e9d5ff, #d8b4fe); border-color: #a855f7;\">
+                    <h3 class=\"criteria-title\" style=\"color: #6b21a8;\">Online/Offline/Physical Interview</h3>
+                    <span class=\"marks-badge\" style=\"background: #a855f7;\">10 marks</span>
+                </div>
+
+                <div class=\"criteria-card\" style=\"background: linear-gradient(135deg, #fed7aa, #fdba74); border-color: #f97316;\">
+                    <h3 class=\"criteria-title\" style=\"color: #9a3412;\">Specialized Sports Theory Test (MCQ)</h3>
+                    <span class=\"marks-badge\" style=\"background: #f97316;\">25 marks</span>
+                </div>
+
+                <div class=\"criteria-card\" style=\"background: linear-gradient(135deg, #ccfbf1, #99f6e4); border-color: #14b8a6;\">
+                    <h3 class=\"criteria-title\" style=\"color: #134e4a;\">General Knowledge Theory Test (MCQ)</h3>
+                    <span class=\"marks-badge\" style=\"background: #14b8a6;\">10 marks</span>
+                </div>
+
+                <div class=\"criteria-card\" style=\"background: linear-gradient(135deg, #e0e7ff, #c7d2fe); border-color: #6366f1;\">
+                    <h3 class=\"criteria-title\" style=\"color: #3730a3;\">Logical Reasoning & Coaching Aptitude (MCQ)</h3>
+                    <span class=\"marks-badge\" style=\"background: #6366f1;\">10 marks</span>
+                </div>
+
+                <div class=\"criteria-card\" style=\"background: linear-gradient(135deg, #fce7f3, #fbcfe8); border-color: #ec4899;\">
+                    <h3 class=\"criteria-title\" style=\"color: #9f1239;\">Language & Communication (MCQ)</h3>
+                    <span class=\"marks-badge\" style=\"background: #ec4899;\">10 marks</span>
+                </div>
+
+                <div class=\"criteria-card\" style=\"background: linear-gradient(135deg, #fef3c7, #fde68a); border-color: #f59e0b;\">
+                    <h3 class=\"criteria-title\" style=\"color: #78350f;\">Basic Computer Knowledge (MCQ)</h3>
+                    <span class=\"marks-badge\" style=\"background: #f59e0b;\">05 marks</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Curriculum Section -->
+    <section class=\"curriculum-section\">
+        <div class=\"container\">
+            <div class=\"section-header\">
+                <h2 class=\"section-title\">Comprehensive Curriculum Coverage</h2>
+                <p class=\"section-subtitle\">Designed as per NS NIS Selection Pattern</p>
+            </div>
+
+            <div class=\"curriculum-list\">
+                <div class=\"curriculum-item\">
+                    <div class=\"curriculum-number\">1</div>
+                    <div class=\"curriculum-content\">
+                        <div class=\"curriculum-header\">
+                            <h3 class=\"curriculum-title\">Specialized Sport Theory Test</h3>
+                            <span class=\"curriculum-marks\">25 marks</span>
+                        </div>
+                        <p class=\"curriculum-description\">Basic terminology, abbreviations, technical rules, specifications of play fields/courts/arena/equipment and competition format</p>
+                    </div>
+                </div>
+
+                <div class=\"curriculum-item\">
+                    <div class=\"curriculum-number\">2</div>
+                    <div class=\"curriculum-content\">
+                        <div class=\"curriculum-header\">
+                            <h3 class=\"curriculum-title\">General Knowledge</h3>
+                            <span class=\"curriculum-marks\">10 marks</span>
+                        </div>
+                        <p class=\"curriculum-description\">Current affairs, basic sports awareness at national and international level, awards, rural sports in the country and sports promotional schemes</p>
+                    </div>
+                </div>
+
+                <div class=\"curriculum-item\">
+                    <div class=\"curriculum-number\">3</div>
+                    <div class=\"curriculum-content\">
+                        <div class=\"curriculum-header\">
+                            <h3 class=\"curriculum-title\">Logical Reasoning & Coaching Aptitude</h3>
+                            <span class=\"curriculum-marks\">10 marks</span>
+                        </div>
+                        <p class=\"curriculum-description\">Numerical, relationship, sequential, diagrammatic reasoning patterns of intermediate standard. Fault finding, problem solving and analytical aptitude</p>
+                    </div>
+                </div>
+
+                <div class=\"curriculum-item\">
+                    <div class=\"curriculum-number\">4</div>
+                    <div class=\"curriculum-content\">
+                        <div class=\"curriculum-header\">
+                            <h3 class=\"curriculum-title\">Language & Communication Test</h3>
+                            <span class=\"curriculum-marks\">10 marks</span>
+                        </div>
+                        <p class=\"curriculum-description\">Grammar, comprehensive, synonyms, antonyms of matric standard in English</p>
+                    </div>
+                </div>
+
+                <div class=\"curriculum-item\">
+                    <div class=\"curriculum-number\">5</div>
+                    <div class=\"curriculum-content\">
+                        <div class=\"curriculum-header\">
+                            <h3 class=\"curriculum-title\">Basic Computer Knowledge</h3>
+                            <span class=\"curriculum-marks\">05 marks</span>
+                        </div>
+                        <p class=\"curriculum-description\">Basic knowledge of Microsoft Office and Excel, terminology of computer and internet</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Physical Fitness Tests Section -->
+    <section class=\"fitness-section\">
+        <div class=\"container\">
+            <div class=\"section-header\">
+                <h2 class=\"section-title\">Physical Fitness Tests</h2>
+                <p class=\"section-subtitle\">Essential fitness components for NIS entrance</p>
+            </div>
+
+            <div class=\"fitness-grid\">
+                <div class=\"fitness-item\">
+                    <div class=\"fitness-number\">1</div>
+                    <h3 class=\"fitness-name\">30 mtr Flying Sprint</h3>
+                </div>
+
+                <div class=\"fitness-item\">
+                    <div class=\"fitness-number\">2</div>
+                    <h3 class=\"fitness-name\">Standing Broad Jump</h3>
+                </div>
+
+                <div class=\"fitness-item\">
+                    <div class=\"fitness-number\">3</div>
+                    <h3 class=\"fitness-name\">6 x 10 mtr Shuttle Run</h3>
+                </div>
+
+                <div class=\"fitness-item\">
+                    <div class=\"fitness-number\">4</div>
+                    <h3 class=\"fitness-name\">Bend and Reach Test</h3>
+                </div>
+
+                <div class=\"fitness-item\">
+                    <div class=\"fitness-number\">5</div>
+                    <h3 class=\"fitness-name\">1600 mtr Run</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Eligibility Criteria Section -->
+    <section class=\"eligibility-section\">
+        <div class=\"container\">
+            <div class=\"section-header\">
+                <h2 class=\"section-title\">Eligibility Criteria</h2>
+                <p class=\"section-subtitle\">Minimum qualifications required for NIS entrance</p>
+            </div>
+
+            <div class=\"eligibility-grid\">
+                <div class=\"eligibility-card education\">
+                    <div class=\"eligibility-header education\">
+                        <h3 class=\"eligibility-title education\">Minimum Education Qualification</h3>
+                    </div>
+                    <div class=\"eligibility-body\">
+                        <div class=\"eligibility-item education\">
+                            <p class=\"eligibility-subtitle\">For International Athletes</p>
+                            <p class=\"eligibility-text\">10+2 (Higher Secondary)</p>
+                        </div>
+                        <div class=\"eligibility-item education\">
+                            <p class=\"eligibility-subtitle\">For Six Week Qualified & Others</p>
+                            <p class=\"eligibility-text\">Graduation (Bachelor's Degree)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class=\"eligibility-card sports\">
+                    <div class=\"eligibility-header sports\">
+                        <h3 class=\"eligibility-title sports\">Minimum Sports Achievement</h3>
+                    </div>
+                    <div class=\"eligibility-body\">
+                        <div class=\"eligibility-item sports\">
+                            <p class=\"eligibility-subtitle\">For Six Week Qualified</p>
+                            <p class=\"eligibility-text\">State Level Medal</p>
+                        </div>
+                        <div class=\"eligibility-item sports\">
+                            <p class=\"eligibility-subtitle\">For Others</p>
+                            <p class=\"eligibility-text\">2 Times National Participation</p>
+                        </div>
+                        <div class=\"eligibility-item sports\">
+                            <p class=\"eligibility-subtitle\">For North East Candidates</p>
+                            <p class=\"eligibility-text\">2 Times North East Games Participation or Medal</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sports Achievement Marks Section -->
+    <section class=\"achievement-section\">
+        <div class=\"container\">
+            <div class=\"section-header\">
+                <h2 class=\"section-title\">Marks for Sports Achievements</h2>
+                <p class=\"section-subtitle\">Candidates with sports achievements shall be awarded marks as per the following criteria</p>
+                <p style=\"font-size: 0.95rem; color: #94a3b8; margin-top: 10px;\">Note: This is according to last year's notification</p>
+            </div>
+
+            <div class=\"achievement-grid\">
+                <!-- 20 Marks -->
+                <div class=\"achievement-card\" style=\"border-color: #fbbf24;\">
+                    <div class=\"achievement-header gold\">
+                        <span class=\"achievement-icon\">🏆</span>
+                        <h3 class=\"achievement-title-text\">20 Marks - Elite Level</h3>
+                    </div>
+                    <div class=\"achievement-body\">
+                        <ul class=\"achievement-list\">
+                            <li>
+                                <span class=\"achievement-check\">✓</span>
+                                <span>Participation in Olympics</span>
+                            </li>
+                            <li>
+                                <span class=\"achievement-check\">✓</span>
+                                <span>Medal winners of Senior World Championships</span>
+                            </li>
+                            <li>
+                                <span class=\"achievement-check\">✓</span>
+                                <span>Gold medal winners in Asian/Commonwealth Games</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- 15 Marks -->
+                <div class=\"achievement-card\" style=\"border-color: #f97316;\">
+                    <div class=\"achievement-header silver\">
+                        <span class=\"achievement-icon\">🥇</span>
+                        <h3 class=\"achievement-title-text\">15 Marks - High Level</h3>
+                    </div>
+                    <div class=\"achievement-body\">
+                        <ul class=\"achievement-list\">
+                            <li>
+                                <span class=\"achievement-check\">✓</span>
+                                <span>Silver/Bronze medal in Asian/Commonwealth Games</span>
+                            </li>
+                            <li>
+                                <span class=\"achievement-check\">✓</span>
+                                <span>Medal winners in Senior Asian/Commonwealth Championships</span>
+                            </li>
+                            <li>
+                                <span class=\"achievement-check\">✓</span>
+                                <span>Medal winners in World University Games/Championships</span>
+                            </li>
+                            <li>
+                                <span class=\"achievement-check\">✓</span>
+                                <span>Medal winners in Youth Olympics/Junior World Championships</span>
+                            </li>
+                            <li>
+                                <span class=\"achievement-check\">✓</span>
+                                <span>Medal winners in World Military Games/World Police</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- 10 Marks -->
+                <div class=\"achievement-card\" style=\"border-color: #3b82f6;\">
+                    <div class=\"achievement-header bronze\">
+                        <span class=\"achievement-icon\">🥈</span>
+                        <h3 class=\"achievement-title-text\">10 Marks - National Level</h3>
+                    </div>
+                    <div class=\"achievement-body\">
+                        <ul class=\"achievement-list\">
+                            <li>
+                                <span class=\"achievement-check\">✓</span>
+                                <span>Participation in Asian/Commonwealth Games/Senior World or Asian or Commonwealth Championships</span>
+                            </li>
+                            <li>
+                                <span class=\"achievement-check\">✓</span>
+                                <span>Medal winner in SAAF/SAARC Games</span>
+                            </li>
+                            <li>
+                                <span class=\"achievement-check\">✓</span>
+                                <span>Medal winners in National Games</span>
+                            </li>
+                            <li>
+                                <span class=\"achievement-check\">✓</span>
+                                <span>Medal winners in Senior National Championship</span>
+                            </li>
+                            <li>
+                                <span class=\"achievement-check\">✓</span>
+                                <span>Participation in: Youth Olympics Games, Junior World Championships, World Military Games, World Police Games, World University Games</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- 05 Marks -->
+                <div class=\"achievement-card\" style=\"border-color: #10b981;\">
+                    <div class=\"achievement-header participation\">
+                        <span class=\"achievement-icon\">🥉</span>
+                        <h3 class=\"achievement-title-text\">05 Marks - Regional/University Level</h3>
+                    </div>
+                    <div class=\"achievement-body\">
+                        <ul class=\"achievement-list\">
+                            <li>
+                                <span class=\"achievement-check\">✓</span>
+                                <span>Participation in SAAF/SAARC Games</span>
+                            </li>
+                            <li>
+                                <span class=\"achievement-check\">✓</span>
+                                <span>Medal winners in All India Inter University</span>
+                            </li>
+                            <li>
+                                <span class=\"achievement-check\">✓</span>
+                                <span>Medal winners in Junior/Youth Nationals</span>
+                            </li>
+                            <li>
+                                <span class=\"achievement-check\">✓</span>
+                                <span>Medal winners in Khelo India (School/Youth/University Games)</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Educators Section -->
+    <section class=\"educators-section\">
+        <div class=\"container\">
+            <div class=\"section-header\">
+                <h2 class=\"section-title\" style=\"color: white;\">Learn From NIS Qualified Coaches</h2>
+                <p class=\"section-subtitle\" style=\"color: #94a3b8;\">Expert guidance from experienced professionals</p>
+            </div>
+
+            <div class=\"educators-grid\">
+                <!-- Ankit Singroha -->
+                <div class=\"educator-card\">
+                    <div class=\"educator-image-container\">
+                        <img src=\"https://customer-assets.emergentagent.com/job_learn-to-drive-40/artifacts/hrco2134_Screenshot_2026-02-21-14-29-11-594_com.miui.gallery-edit.jpg\" alt=\"Ankit Singroha - NIS Qualified Coach\" class=\"educator-image\">
+                        <div class=\"educator-overlay\">
+                            <span class=\"badge\" style=\"font-size: 1rem; padding: 10px 20px;\">NIS Qualified</span>
+                        </div>
+                    </div>
+                    <div class=\"educator-info\">
+                        <h3 class=\"educator-name\">Ankit Singroha</h3>
+                        <div class=\"educator-badges\">
+                            <span class=\"educator-badge amber\">NIS Qualified Coach</span>
+                            <span class=\"educator-badge green\">World Athletics Level 1 Coach</span>
+                        </div>
+                        <p class=\"educator-description\">Expert in Athletics coaching with extensive experience in preparing students for NIS entrance examinations and developing future sports professionals.</p>
+                    </div>
+                </div>
+
+                <!-- Parveen Sehrawat -->
+                <div class=\"educator-card\">
+                    <div class=\"educator-image-container\">
+                        <img src=\"https://i.imgur.com/gkEcFxK.jpeg\" alt=\"Parveen Sehrawat - NIS Qualified Coach\" class=\"educator-image\">
+                        <div class=\"educator-overlay\">
+                            <span class=\"badge\" style=\"font-size: 1rem; padding: 10px 20px;\">NIS Qualified</span>
+                        </div>
+                    </div>
+                    <div class=\"educator-info\">
+                        <h3 class=\"educator-name\">Parveen Sehrawat</h3>
+                        <div class=\"educator-badges\">
+                            <span class=\"educator-badge amber\">NIS Qualified Coach</span>
+                            <span class=\"educator-badge green\">World Athletics Level 1 Coach</span>
+                        </div>
+                        <p class=\"educator-description\">Specialized in coaching aptitude and exam preparation strategies for aspiring sports coaches with proven track record in student success.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class=\"pricing-section\">
+        <div class=\"container\">
+            <div class=\"section-header\">
+                <h2 class=\"section-title\">Invest In Your Coaching Career</h2>
+                <p class=\"section-subtitle\">Limited seats available - Secure your spot now!</p>
+            </div>
+
+            <div class=\"pricing-card\">
+                <div class=\"pricing-header\">
+                    <span class=\"limited-badge\">Limited Seats Only</span>
+                    <div class=\"price-tag\">₹1,499</div>
+                    <p class=\"price-description\">Complete Course Access Till Entrance Test</p>
+                </div>
+
+                <div class=\"price-features\">
+                    <div class=\"price-feature-item\">
+                        <span class=\"checkmark\">✓</span>
+                        <span class=\"feature-text\">All recorded theory video lectures</span>
+                    </div>
+                    <div class=\"price-feature-item\">
+                        <span class=\"checkmark\">✓</span>
+                        <span class=\"feature-text\">Topic-wise expert notes (exam-oriented)</span>
+                    </div>
+                    <div class=\"price-feature-item\">
+                        <span class=\"checkmark\">✓</span>
+                        <span class=\"feature-text\">Specialized MCQs & full test series</span>
+                    </div>
+                    <div class=\"price-feature-item\">
+                        <span class=\"checkmark\">✓</span>
+                        <span class=\"feature-text\">Previous year question paper analysis</span>
+                    </div>
+                    <div class=\"price-feature-item\">
+                        <span class=\"checkmark\">✓</span>
+                        <span class=\"feature-text\">Weekly live doubt-clearing sessions</span>
+                    </div>
+                    <div class=\"price-feature-item\">
+                        <span class=\"checkmark\">✓</span>
+                        <span class=\"feature-text\">Full-length mock tests</span>
+                    </div>
+                    <div class=\"price-feature-item\">
+                        <span class=\"checkmark\">✓</span>
+                        <span class=\"feature-text\">Specialized interview preparation</span>
+                    </div>
+                    <div class=\"price-feature-item\">
+                        <span class=\"checkmark\">✓</span>
+                        <span class=\"feature-text\">Dedicated support & guidance</span>
+                    </div>
+                </div>
+
+                <div class=\"pricing-cta\">
+                    <a href=\"https://pages.razorpay.com/nisdiploma2026\" target=\"_blank\" class=\"btn btn-primary\" style=\"width: 100%; text-align: center; margin-bottom: 18px;\">
+                        Enroll Now - Direct Admission
+                    </a>
+                    <a href=\"https://wa.me/917206131232?text=Hi\" target=\"_blank\" class=\"btn btn-whatsapp\" style=\"width: 100%; text-align: center;\">
+                        Contact via WhatsApp
+                    </a>
+                    <p class=\"pricing-note\">Secure your seat today | Batch starts 1st March 2026</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class=\"faq-section\">
+        <div class=\"container\">
+            <div class=\"section-header\">
+                <h2 class=\"section-title\">Frequently Asked Questions</h2>
+                <p class=\"section-subtitle\">Got questions? We've got answers!</p>
+            </div>
+
+            <div class=\"faq-container\">
+                <div class=\"faq-item\">
+                    <div class=\"faq-question\" onclick=\"toggleFaq(this)\">
+                        <span>What is the batch start date?</span>
+                        <span class=\"faq-icon\">+</span>
+                    </div>
+                    <div class=\"faq-answer\">
+                        <div class=\"faq-answer-content\">
+                            The batch starts from 1st March 2026. You will have access to all course materials and live sessions from this date.
+                        </div>
+                    </div>
+                </div>
+
+                <div class=\"faq-item\">
+                    <div class=\"faq-question\" onclick=\"toggleFaq(this)\">
+                        <span>What is the course duration and access period?</span>
+                        <span class=\"faq-icon\">+</span>
+                    </div>
+                    <div class=\"faq-answer\">
+                        <div class=\"faq-answer-content\">
+                            You will have access to the course till the entrance test. The course includes recorded lectures that you can access anytime and weekly live sessions.
+                        </div>
+                    </div>
+                </div>
+
+                <div class=\"faq-item\">
+                    <div class=\"faq-question\" onclick=\"toggleFaq(this)\">
+                        <span>Is this course suitable for all sports or only athletics?</span>
+                        <span class=\"faq-icon\">+</span>
+                    </div>
+                    <div class=\"faq-answer\">
+                        <div class=\"faq-answer-content\">
+                            The course covers Athletics Main (for athletics coaches) + Common subjects for all sports. The common subjects (GK, Reasoning, Coaching Aptitude, Language, Computer) are applicable for all sports.
+                        </div>
+                    </div>
+                </div>
+
+                <div class=\"faq-item\">
+                    <div class=\"faq-question\" onclick=\"toggleFaq(this)\">
+                        <span>What is the course format?</span>
+                        <span class=\"faq-icon\">+</span>
+                    </div>
+                    <div class=\"faq-answer\">
+                        <div class=\"faq-answer-content\">
+                            The course is completely online with recorded video lectures that you can watch at your convenience, plus weekly live doubt-clearing sessions for direct interaction with coaches.
+                        </div>
+                    </div>
+                </div>
+
+                <div class=\"faq-item\">
+                    <div class=\"faq-question\" onclick=\"toggleFaq(this)\">
+                        <span>Who are the educators?</span>
+                        <span class=\"faq-icon\">+</span>
+                    </div>
+                    <div class=\"faq-answer\">
+                        <div class=\"faq-answer-content\">
+                            The course is taught by Ankit Singroha and Parveen Sehrawat, both NIS Qualified Coaches with extensive experience in coaching and exam preparation.
+                        </div>
+                    </div>
+                </div>
+
+                <div class=\"faq-item\">
+                    <div class=\"faq-question\" onclick=\"toggleFaq(this)\">
+                        <span>How do I enroll after payment?</span>
+                        <span class=\"faq-icon\">+</span>
+                    </div>
+                    <div class=\"faq-answer\">
+                        <div class=\"faq-answer-content\">
+                            After payment confirmation, you need to contact us via WhatsApp at +917206131232 to get your seat confirmed. You will receive course access details within 24 hours.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Course Poster Section -->
+    <section class=\"poster-section\">
+        <div class=\"container\">
+            <div class=\"section-header\">
+                <h2 class=\"section-title\">Complete Course Details</h2>
+                <p class=\"section-subtitle\">Everything you need to know about the NIS Coach Diploma preparation</p>
+            </div>
+
+            <div class=\"poster-container\">
+                <div class=\"poster-wrapper\">
+                    <img src=\"https://customer-assets.emergentagent.com/job_76ff894b-3e09-49e0-98f2-1d04127b08b5/artifacts/w2la9994_SAVE_20260220_135809.jpg\" alt=\"NIS Coach Diploma Course Details\" class=\"poster-image\">
+                </div>
+
+                <div class=\"poster-cta\">
+                    <a href=\"https://pages.razorpay.com/nisdiploma2026\" target=\"_blank\" class=\"btn btn-primary\">
+                        Enroll Now - Pay ₹1,499
+                    </a>
+                    <a href=\"https://whatsapp.com/channel/0029VbBuOMEDJ6H8A0wYLy2T\" target=\"_blank\" class=\"btn btn-outline\" style=\"color: #0f172a; border-color: #cbd5e1;\">
+                        💬 Join Channel for Updates
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class=\"footer\">
+        <div class=\"container\">
+            <div class=\"footer-grid\">
+                <div>
+                    <div class=\"footer-brand\">Sports Tank India</div>
+                    <p class=\"footer-description\">Expert NIS Coach Diploma entrance preparation for aspiring sports coaches across India.</p>
+                </div>
+
+                <div>
+                    <h4 class=\"footer-heading\">Quick Links</h4>
+                    <a href=\"#pricing\" class=\"footer-link\">Pricing</a>
+                    <a href=\"#curriculum\" class=\"footer-link\">Curriculum</a>
+                    <a href=\"#educators\" class=\"footer-link\">Educators</a>
+                </div>
+
+                <div>
+                    <h4 class=\"footer-heading\">Contact Us</h4>
+                    <a href=\"tel:+917206131232\" class=\"footer-link\">📞 +91 72061 31232</a>
+                    <a href=\"mailto:sportstankindia@gmail.com\" class=\"footer-link\">✉️ sportstankindia@gmail.com</a>
+                    <a href=\"https://wa.me/917206131232?text=Hi\" target=\"_blank\" class=\"footer-link\">💬 WhatsApp Contact</a>
+                    <a href=\"https://pages.razorpay.com/nisdiploma2026\" target=\"_blank\" class=\"footer-link\">🎯 Direct Enrollment</a>
+                </div>
+            </div>
+
+            <div class=\"footer-bottom\">
+                <p>&copy; 2026 Sports Tank India. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript for FAQ Accordion -->
+    <script>
+        function toggleFaq(element) {
+            const faqItem = element.parentElement;
+            const wasActive = faqItem.classList.contains('active');
+            
+            // Close all FAQs
+            document.querySelectorAll('.faq-item').forEach(item => {
+                item.classList.remove('active');
+            });
+            
+            // Open clicked FAQ if it wasn't active
+            if (!wasActive) {
+                faqItem.classList.add('active');
+            }
+        }
+    </script>
+</body>
+</html>"
